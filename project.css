@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    background-image: url(background5.jpg);
+    width: 98vw;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px; */
+    padding-top: 10px;
+    color: #263d5a !important;
+    position: fixed;
+}
+header nav p{
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav ul {
+    display: flex;
+    gap: 25px;
+} 
+header nav ul li {
+    list-style: none;
+font-size: 30px;
+font-weight: bold;
+color: #263d5a !important;
+}
+header nav button{
+    font-weight: bolder;
+    color: white;
+    border: none;
+    font-size: 20px;
+    background:linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+    padding: 10px 12px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* ..................................... */
+.section1{
+   width: 98vw;
+   height: 70vh; 
+    background-image: url(background5.jpg);
+    display: flex;
+    /* padding: 10px; */
+justify-content: center;
+    align-items: center;
+
+    
+}
+.section1 .part1{
+    width: 40vw;
+    height: 41vh ;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: visible;
+    left: 18vw;
+    align-items: left;
+    padding: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    font-family: 'Lexend', sans-serif;
+    color: #263d5a;
+    
+}
+@media screen {
+    
+}
+.section1 .part2 img{
+    width: 35vw;
+    height:43vh ;
+    margin-top: 30px;
+    border-radius: 20px;
+    z-index: 0;
+    position: relative;
+    left: 60%
+}
+.section1 .part1 button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        font-size: 15px;
+        background:linear-gradient(90deg, #a148ff 0%, #ff6f45 100%);
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    /* ................. */
+    .section2{
+        width: 98vw;
+        height: 70vh;
+        background-image:url(background3.jpg) ;
+        display: flex;
+       flex-direction: column;
+       /* padding-top: 20px; */
+       justify-content: center;
+       align-items: center;
+       padding-bottom: 12px;
+    }
+    #section2{
+        display: flex;
+        width: 85vw;
+        height: 45vh;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgba(255, 255, 255, 0.3);
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        padding-bottom: 10px;
+        gap: 40px;
+    }
+    .section2 h1{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .section2 .part1{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: larger;
+    }
+    .section2 .part1 svg{
+        /* margin-left: 60px; */
+        width: 80px;
+        height: 80px;
+        color:#a148ff;
+        background-color: rgba(255, 255, 255, 0.648); 
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+    }
+/* ................... */
+.section3{
+    width: 98vw;
+    height: 70vh;
+    background-image: url(background8.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+} 
+.section3 img{
+    width: 400px;
+    height: 440px;
+    border-radius: 30px;
+}
+#section3{
+    width: 700px;
+    height:300px ;
+    background-color:  rgba(255, 255, 255, 0.648);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+font-size: larger;
+}
+#section3 h1{
+
+text-align: center;}
+#section3 p{
+    width: 40%;
+    font-size: larger;
+}
+#section3a{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+/* ............. */
